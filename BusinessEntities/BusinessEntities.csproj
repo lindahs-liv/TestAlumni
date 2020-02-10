@@ -43,6 +43,14 @@
   <ItemGroup>
     <Compile Include="Administrator.cs" />
     <Compile Include="Activity.cs" />
+    <Compile Include="BusinessInformatics.cs" />
+    <Compile Include="GuestLecture.cs" />
+    <Compile Include="Interfaces\IActivity.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="SystemsScience.cs" />
+    <Compile Include="ComputerScience.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Session.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Employee.cs" />

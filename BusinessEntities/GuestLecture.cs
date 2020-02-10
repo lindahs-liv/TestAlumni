@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    public class Student: User
+    public class GuestLecture: Activity
     {
-        public string StudentId { get; set; }
-
+        public string Theme { get; set; }
     }
 }

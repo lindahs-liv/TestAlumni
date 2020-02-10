@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class Employee
+   public class Employee: User
     {
+        public string EmployeeId { get; set; }
     }
 }

@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    public class Student: User
+    class SystemsScience: Program
     {
-        public string StudentId { get; set; }
-
     }
 }

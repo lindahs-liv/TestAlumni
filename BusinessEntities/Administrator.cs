@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class Administrator
+    public class Administrator
     {
+        public string AdminId { get; set; }
     }
 }

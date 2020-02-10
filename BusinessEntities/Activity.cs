@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class Activity
+    public class Activity : IActivity
     {
+        public string ActivityName { get; set; }
+        public DateTime SetDate { get; set; }
+        public string Details { get; set; } //ev. begränsa till 500 tecken 
     }
 }
