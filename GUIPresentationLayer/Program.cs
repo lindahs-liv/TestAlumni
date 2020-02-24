@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BussinessLayer;
+using DataLayer;
 
 namespace GUIPresentationLayer
 {
@@ -15,6 +16,8 @@ namespace GUIPresentationLayer
         [STAThread]
         static void Main()
         {
+            AppDbContext appDbContext = new AppDbContext();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LogInForm());

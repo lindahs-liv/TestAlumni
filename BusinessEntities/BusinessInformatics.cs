@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class BusinessInformatics: Program
+    public class BusinessInformatics: Program
     {
     }
 }

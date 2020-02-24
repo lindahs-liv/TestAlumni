@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class Session
+    public class Session
     {
     }
 }
